@@ -10,14 +10,6 @@ function Footer() {
         <div className='flex flex-col justify-center items-center align-middle'>
             <img src={img} alt='' className='h-[34px] cursor-pointer hover:scale-105 duration-300 ease-in-out' onClick={() => navigate("/")} />
             <div className='pt-8'>
-                <ul className='flex gap-14 text-base font-medium text-gray-600'>
-                    <li className='cursor-pointer hover:text-black duration-150' onClick={() => navigate("/")}>Home</li>
-                    <li className='cursor-pointer hover:text-black duration-150' onClick={() => navigate("/pricing")}>Pricing</li>
-                    <li className='cursor-pointer hover:text-black duration-150' onClick={() => navigate("/about")}>About</li>
-                    <li className='cursor-pointer hover:text-black duration-150' onClick={() => navigate("/contact")}>Contact</li>
-                </ul>
-            </div>
-            <div className='pt-4'>
                 <ul className='flex gap-14 text-sm font-medium text-gray-600'>
                     <li className='cursor-pointer hover:text-black duration-150' onClick={() => navigate("/Terms")}>Terms of Use</li>
                     <li className='cursor-pointer hover:text-black duration-150' onClick={() => navigate("/Privacy")}>Privacy Policy</li>
